@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculator</title>
+        <link rel="stylesheet" href="assets/style.css">
+        <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    </head>
+
+    <body>
+        <h1 class="center">Calcbear</h1><br>
+        <div class="backk center">
+            <div class="base center">
+                <div> 
+                    <textbox class="display bottomcorner"></textbox>
+                </div>
+                <div class="row1 back center ">
+                    <button class="button" id ="clear" onclick="clearAll()">C</button>
+                    <button class="button" id ="add" onclick="disp('+')">+</button>
+                    <button class="button" id ="subtract" onclick="disp('-')">-</button>   
+                    <button class="button" id ="divide" onclick="disp('/')">/</button>                                     
+                </div>
+                <div class="row2 back center ">
+                    <button class="button" id="seven" onclick="disp(7)">7</button>
+                    <button class="button" id ="eight" onclick="disp(8)">8</button>
+                    <button class="button" id ="nine" onclick="disp(9)">9</button>   
+                    <button class="button" id ="multiply" onclick="disp('*')">x</button>
+                </div>
+                <div class="row3 back center ">
+                    <button class="button" id ="four" onclick="disp(4)">4</button>
+                    <button class="button" id ="five" onclick="disp(5)">5</button>
+                    <button class="button" id ="six" onclick="disp(6)">6</button>   
+                    <button class="button" id ="mod" onclick="disp('%')">%</button>
+                </div>
+                <div class="row4 back center">
+                    <button class="button" id ="one" onclick="disp(1)">1</button>
+                    <button class="button" id ="two" onclick="disp(2)">2</button>
+                    <button class="button" id ="three" onclick="disp(3)">3</button>   
+                    <button class="button" id ="equal" onclick="eva()">=</button>
+                </div>
+                <div class="row5 back center">
+                    <button class="buttonm" id="zero" onclick="disp(0)">0</button>
+                    <button class="buttonm" id ="dot" onclick="disp('.')">.</button>                                       
+                    <button class="buttonm cli" style="vertical-align:middle" id="delete" onclick="clea()"><span>del</span></button>
+                </div>
+            </div>
+        </div>
+
+        </div>
+        <script src="assets/func.js"></script>
+
+    </body>
+</html>

@@ -1,0 +1,24 @@
+#timeBox{
+    font-size: 9rem;
+    width:35rem;
+    background-image: linear-gradient(to right, blue,indigo,violet); 
+    margin-top: 19%;
+    border-radius: 1rem;  
+    border-color: black;
+    color: white;  
+}
+
+.center{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+/* body{
+     background-image: url(Assets/images.jpg);
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
+ } */
